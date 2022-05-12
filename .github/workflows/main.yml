@@ -3,7 +3,7 @@ on: [push]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    # container: sandrolex2/gh-runner:ubuntu-builder-no-docker
+    container: sandrolex2/gh-runner:ubuntu-builder-no-docker
     name: A job to say hello
     steps:
       - uses: actions/checkout@v3
